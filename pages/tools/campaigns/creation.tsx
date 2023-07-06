@@ -235,7 +235,7 @@ export default function CampaignPage() {
     const targeting: AdTargeting = {
       demographics: [{ min_age: ad_squad_age_min_age }],
       devices: [{}],
-      geos: [{ country_code: 'us','de','fr','ca' }],
+      geos: [{ country_code: 'us' }],
     };
 
     if (ad_squad_gender !== 'ALL') {
