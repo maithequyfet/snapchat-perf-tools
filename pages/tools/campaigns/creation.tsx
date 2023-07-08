@@ -674,9 +674,9 @@ export default function CampaignPage() {
         <div className="flex flex-col">
           <span className="label label-text">Ad Type (Required)</span>
           <select className="select select-bordered select-sm" id="ad_squad_child_type">
-            <option value="SNAP AD">SNAP_AD</option>
-            <option value="REMOTE WEBPAGE">REMOTE_WEBPAGE</option>
-            <option value="DEEP LINK">DEEP_LINK</option>
+            <option value="SNAP_AD">SNAP_AD</option>
+            <option value="REMOTE_WEBPAGE">REMOTE_WEBPAGE</option>
+            <option value="DEEP_LINK">DEEP_LINK</option>
           </select>
         </div>
       </div>
