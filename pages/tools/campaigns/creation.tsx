@@ -607,7 +607,7 @@ export default function CampaignPage() {
           <select className="select select-bordered select-sm" id="campaign_objective">
             <option value="WEB_CONVERSION">WEB CONVERSION</option>
             <option value="BRAND_AWARENESS">BRAND AWARENESS</option>
-            <option value="WEB_VIEWS">WEB VIEWS</option>
+            <option value="VIDEO_VIEW">VIDEO VIEW</option>
           </select>
         </div>
         <div className="flex flex-col">
@@ -674,9 +674,9 @@ export default function CampaignPage() {
         <div className="flex flex-col">
           <span className="label label-text">Ad Type (Required)</span>
           <select className="select select-bordered select-sm" id="ad_squad_child_type">
-            <option value="SNAP_AD">SNAP_AD</option>
-            <option value="REMOTE_WEBPAGE">REMOTE_WEBPAGE</option>
-            <option value="DEEP_LINK">DEEP_LINK</option>
+            <option value="SNAP_AD">SNAP AD</option>
+            <option value="REMOTE_WEBPAGE">REMOTE WEBPAGE</option>
+            <option value="DEEP_LINK">DEEP LINK</option>
           </select>
         </div>
       </div>
